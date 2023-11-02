@@ -99,6 +99,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-php"
     },
     {
+      skillName: "golang",
+      fontAwesomeClassname: "fab fa-golang"
+    },
+    {
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
+    },
+    {
       skillName: "laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
