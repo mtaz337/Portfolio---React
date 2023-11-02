@@ -59,7 +59,7 @@ const Main = () => {
             {/* <Achievement /> */}
             <Blogs />
             <Talks />
-            <Twitter />
+            {/* <Twitter /> */}
             <Podcast />
             <Profile />
             <Footer />
