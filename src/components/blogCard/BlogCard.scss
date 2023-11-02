@@ -12,7 +12,14 @@
   cursor: pointer;
   height: 200px;
 }
-
+.blog-container-dark-mode {
+  border-radius: 10px;
+  color: #fff;
+  background-color: #171c28;
+  box-shadow: 0 0 36px $lightBoxShadow;
+  cursor: pointer;
+  height: 200px;
+}
 .blog-title {
   color: $blogCardTitleColor;
   font-size: 1.375rem;

@@ -186,7 +186,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "BRAC University",
-      logo: require("./assets/images/brac.png"),
+      logo: require("./assets/images/brac.webp"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "March 2015 - December 2020",
       desc: "Member of BRACU Competitive Programming Enthusiasts group.",

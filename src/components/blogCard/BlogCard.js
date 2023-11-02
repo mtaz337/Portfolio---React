@@ -10,10 +10,10 @@ export default function BlogCard({blog, isDark}) {
     var win = window.open(url, "_blank");
     win.focus();
   }
-
+  console.log("darkmode", isDark);
   return (
     <div onClick={() => openUrlInNewTab(blog.url, blog.title)}>
-      <div className={isDark ? "blog-container dark-mode" : "blog-container"}>
+      <div className={isDark ? "blog-container-dark-mode" : "blog-container"}>
         <a
           className={
             isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"
