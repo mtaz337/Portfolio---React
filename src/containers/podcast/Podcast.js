@@ -3,8 +3,6 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import {podcastSection} from "../../portfolio";
 import "./Podcast.scss";
-import { Spotify } from 'react-spotify-embed';
-
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);
@@ -15,9 +13,6 @@ export default function Podcast() {
   if (!podcastSection.display) {
     return null;
   }
-
-  const spotifyWidth = 250; // Adjust to your preferred width
-  const spotifyHeight = 80;
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main">
@@ -41,18 +36,30 @@ export default function Podcast() {
               );
             }
             return (
-              <div key={i}>
+              <div className="podcast" key={i}>
                 {/* <iframe
                   className="podcast"
-                  src={podcastLink}
+                  src="https://www.hanselminutes.com"
                   frameBorder="0"
                   scrolling="no"
                   title="Podcast"
                 ></iframe> */}
-                <Spotify className="podcast" width={spotifyWidth}
-                  height={spotifyHeight} frameBorder="0"
-                  scrolling="no"
-                  title="Podcast" link="https://open.spotify.com/episode/2T9v592Yl3Zlc5X7Rfv2qZ?si=JH2TVpZmSrGgwcHDzClMFg"/>
+            <iframe 
+            title="What will React come up with Next?"
+            allowtransparency="true"
+            height="300"
+            width="100%"
+            style={{
+              border: "none",
+              minWidth: "100%",
+              height: "300px",
+            }}
+            scrolling="no"
+            data-name="pb-iframe-player"
+            src="https://www.podbean.com/player-v2/?i=pb8mt-1b9ac072-dir&square=1&share=1&download=1&fonts=Arial&skin=1&font-color=auto&rtl=0&logo_link=episode_page&btn-skin=666666&size=300"
+            loading="lazy"
+            allowFullScreen
+          ></iframe>
               </div>
             );
           })}
