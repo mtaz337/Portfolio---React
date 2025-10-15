@@ -231,6 +231,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+     {
+      role: "Software Developer",
+      company: "Microsec International Ltd.",
+      companylogo: require("./assets/images/microsec_ltd__logo.jpeg"),
+      date: "Oct 2024 – Present",
+      desc: "Developing and maintaining a large-scale logistics application using ASP.NET Core, CQRS, Mediator, and SQL Server. Collaborating with international teams to build and optimize backend services and ensure reliable data synchronization."
+    },
     {
       role: "Software Engineer",
       company: "United Finance",
