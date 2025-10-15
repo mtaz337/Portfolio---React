@@ -242,7 +242,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "United Finance",
       companylogo: require("./assets/images/ufll.png"),
-      date: "Mar 2023 – Present",
+      date: "Mar 2023 – Sept 2024",
       desc: "Developing ERP solutions with Asp.net MVC, Asp.net Core, MySQL, Microsoft SQL server etc. And Maintaining and troubleshooting their existing ERP solutions which are primarily based on Fintech."
     },
     {
